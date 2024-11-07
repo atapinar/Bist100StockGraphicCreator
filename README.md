@@ -6,10 +6,15 @@ Project Overview
 This project enables users to quickly retrieve and visualize stock price data from the Turkish stock market using Python. With just a list of stock symbols, the script downloads the last 250 days of data for the requested stocks and plots their adjusted close prices using Plotly. The interactive plot is saved as an HTML file, allowing you to explore it offline.
 
 # 💼 Key Features
-Flexible Stock Selection: You can input multiple stock symbols for quick visualization of any Turkish stocks listed on Yahoo Finance.
-Real-Time Data: The script automatically fetches data up to the current date, ensuring that you get the latest prices.
-Interactive Plotting: Using Plotly, the visualization is fully interactive, allowing for zooming, panning, and inspecting values.
-Error Handling: If data for a particular stock is unavailable, the script informs you and skips that stock.
+
+* Flexible Stock Selection: You can input multiple stock symbols for quick visualization of any Turkish stocks listed on Yahoo Finance.
+
+* Real-Time Data: The script automatically fetches data up to the current date, ensuring that you get the latest prices.
+
+* Interactive Plotting: Using Plotly, the visualization is fully interactive, allowing for zooming, panning, and inspecting values.
+
+* Error Handling: If data for a particular stock is unavailable, the script informs you and skips that stock.
+
 # 📋 Requirements
 Ensure you have the following Python libraries installed:
 
