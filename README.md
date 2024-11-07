@@ -13,16 +13,21 @@ Error Handling: If data for a particular stock is unavailable, the script inform
 # 📋 Requirements
 Ensure you have the following Python libraries installed:
 
-pandas: For handling and analyzing the stock data.
-yfinance: To fetch data from Yahoo Finance.
-pytz: To manage timezone settings.
-plotly: For creating interactive visualizations.
-You can install these libraries with:
+```pandas```: For handling and analyzing the stock data.
 
-bash
-Kodu kopyala
+```yfinance```: To fetch data from Yahoo Finance.
+
+```pytz```: To manage timezone settings.
+
+```plotly```: For creating interactive visualizations.
+
+# You can install these libraries with:
+
+```
 pip install pandas yfinance pytz plotly
-🔧 How to Use the Script
+```
+
+## 🔧 How to Use the Script
 Set Up Timeframe: The script automatically calculates a 250-day range ending today to capture recent stock performance.
 
 Enter Stock Symbols: When prompted, enter stock symbols separated by commas. The script will adapt these to Yahoo Finance's format for Turkish stocks (by adding .IS).
@@ -35,13 +40,14 @@ View the Plot: An interactive plot is generated and saved as an HTML file named 
 The generated plot will include a distinct line for each stock’s adjusted closing price.
 
 # 📁 Repository Structure
-bash
-Kodu kopyala
-# 📂 Stock-Data-Visualization
+```
+📂 Stock-Data-Visualization
+
 ├── README.md                # Project overview and instructions
 ├── stock_plot.py            # Main script for fetching data and plotting
 └── stock_prices.html        # Generated HTML file for offline interactive viewing
-🚀 Future Enhancements
+```
+# 🚀 Future Enhancements
 Customizable Timeframe: Allow users to specify their own start and end dates.
 Multi-Market Support: Enable fetching data from other markets with proper symbol formatting.
 Additional Indicators: Include common indicators like moving averages to enrich the analysis.
