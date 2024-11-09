@@ -1,4 +1,4 @@
-# Bist100-Stock-Graphic-Creator
+# Bist100 Stock Graphic Creator
 Borsa Istanbul
 
 # 📈 Plotting Stock Data with Python and Plotly
